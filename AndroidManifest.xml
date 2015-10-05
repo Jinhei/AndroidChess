@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs213.androidchess47"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TwoPlayerGame"
+            android:label="@string/title_activity_two_player_game"
+            android:parentActivityName=".MainMenu" >
+            <intent-filter>
+                <action android:name="cs213.androidchess47.TwoPlayerGame" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs213.androidchess47.MainMenu" />
+        </activity>
+        <activity
+            android:name=".ViewReplays"
+            android:label="@string/title_activity_view_replays"
+            android:parentActivityName=".MainMenu" >
+            <intent-filter>
+                <action android:name="cs213.androidchess47.ViewReplays" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs213.androidchess47.MainMenu" />
+        </activity>
+        <activity
+            android:name=".PlayReplay"
+            android:label="@string/title_activity_play_replay"
+            android:parentActivityName=".ViewReplays" >
+            <intent-filter>
+                <action android:name="cs213.androidchess47.PlayReplay" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs213.androidchess47.ViewReplays" />
+        </activity>
+    </application>
+
+</manifest>

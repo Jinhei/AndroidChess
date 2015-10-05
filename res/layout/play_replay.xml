@@ -1,0 +1,803 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cs213.androidchess47.TwoPlayerGame" 
+     android:orientation="vertical">
+
+	<TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/buttona8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:tag = "@string/a8"
+            android:src="@drawable/br"
+            android:scaleType="fitXY"
+            android:onClick="buttonClick"
+            />
+
+        <ImageButton
+            android:id="@+id/buttonb8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/b8"
+            android:src="@drawable/bn"
+            android:scaleType="fitXY"
+            android:onClick="buttonClick" 
+             />
+         <ImageButton
+            android:id="@+id/buttonc8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:tag = "@string/c8"
+            android:src="@drawable/bb"
+            android:scaleType="fitXY"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttond8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#666666"
+            android:layout_weight="1"            
+            android:tag = "@string/d8"
+            android:src="@drawable/bq"
+            android:scaleType="fitXY"
+            android:onClick="buttonClick"
+             />
+         <ImageButton
+            android:id="@+id/buttone8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"  
+            android:tag = "@string/e8"
+			android:scaleType="fitXY"
+            android:src="@drawable/bk"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonf8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/f8"
+            android:src="@drawable/bb"
+            android:scaleType="fitXY"
+            android:onClick="buttonClick"
+             />
+          <ImageButton
+            android:id="@+id/buttong8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF" 
+            android:tag = "@string/g8"
+            android:src="@drawable/bn"
+            android:scaleType="fitXY"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonh8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/h8"
+            android:src="@drawable/br"
+            android:scaleType="fitXY"
+            android:onClick="buttonClick" 
+             />
+        
+    </TableRow>
+	 <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/buttona7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#666666"
+            android:src = "@drawable/bp"
+            android:scaleType="fitXY" 
+            android:tag = "@string/a7"
+            android:onClick="buttonClick"
+            />
+
+        <ImageButton
+            android:id="@+id/buttonb7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:src = "@drawable/bp"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:tag = "@string/b7"
+            android:onClick="buttonClick" 
+             />
+         <ImageButton
+            android:id="@+id/buttonc7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/c7"
+            android:src="@drawable/bp"
+            android:scaleType="fitXY"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttond7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_weight="1"            
+            android:tag = "@string/d7"
+            android:src="@drawable/bp"
+            android:scaleType="fitXY"
+            android:onClick="buttonClick"
+             />
+         <ImageButton
+            android:id="@+id/buttone7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#666666"  
+            android:tag = "@string/e7"
+            android:src="@drawable/bp"
+            android:scaleType="fitXY"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonf7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:tag = "@string/f7"
+            android:src="@drawable/bp"
+            android:scaleType="fitXY"
+            android:onClick="buttonClick"
+             />
+          <ImageButton
+            android:id="@+id/buttong7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#666666" 
+            android:tag = "@string/g7"
+            android:src="@drawable/bp"
+            android:scaleType="fitXY"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonh7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:tag = "@string/h7"
+            android:src="@drawable/bp"
+            android:onClick="buttonClick" 
+             />
+        
+    </TableRow>
+	
+	     <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/buttona6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:tag = "@string/a6"
+            android:onClick="buttonClick"
+            />
+
+        <ImageButton
+            android:id="@+id/buttonb6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/b6"
+            android:onClick="buttonClick" 
+             />
+         <ImageButton
+            android:id="@+id/buttonc6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:tag = "@string/c6"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttond6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#666666"
+            android:layout_weight="1"            
+            android:tag = "@string/d6"
+            android:onClick="buttonClick"
+             />
+         <ImageButton
+            android:id="@+id/buttone6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#FFFFFF"  
+            android:tag = "@string/e6"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonf6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#666666"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:tag = "@string/f6"
+            android:onClick="buttonClick"
+             />
+          <ImageButton
+            android:id="@+id/buttong6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#FFFFFF" 
+            android:tag = "@string/g6"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonh6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/h6"
+            android:onClick="buttonClick" 
+             />
+        
+    </TableRow>
+	 <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/buttona5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#666666"
+            android:tag = "@string/a5"
+            android:onClick="buttonClick"
+            />
+
+        <ImageButton
+            android:id="@+id/buttonb5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:tag = "@string/b5"
+            android:onClick="buttonClick" 
+             />
+         <ImageButton
+            android:id="@+id/buttonc5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/c5"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttond5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"            
+            android:tag = "@string/d5"
+            android:onClick="buttonClick"
+             />
+         <ImageButton
+            android:id="@+id/buttone5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#666666"  
+            android:tag = "@string/e5"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonf5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:tag = "@string/f5"
+            android:onClick="buttonClick"
+             />
+          <ImageButton
+            android:id="@+id/buttong5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#666666" 
+            android:tag = "@string/g5"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonh5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:tag = "@string/h5"
+            android:onClick="buttonClick" 
+             />
+        
+    </TableRow>
+	     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/buttona4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:tag = "@string/a4"
+            android:onClick="buttonClick"
+            />
+
+        <ImageButton
+            android:id="@+id/buttonb4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/b4"
+            android:onClick="buttonClick" 
+             />
+         <ImageButton
+            android:id="@+id/buttonc4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:tag = "@string/c4"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttond4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#666666"
+            android:layout_weight="1"            
+            android:tag = "@string/d4"
+            android:onClick="buttonClick"
+             />
+         <ImageButton
+            android:id="@+id/buttone4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#FFFFFF"  
+            android:tag = "@string/e4"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonf4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#666666"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:tag = "@string/f4"
+            android:onClick="buttonClick"
+             />
+          <ImageButton
+            android:id="@+id/buttong4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#FFFFFF" 
+            android:tag = "@string/g4"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonh4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/h4"
+            android:onClick="buttonClick" 
+             />
+        
+    </TableRow>
+	 <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/buttona3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#666666"
+            android:tag = "@string/a3"
+            android:onClick="buttonClick"
+            />
+
+        <ImageButton
+            android:id="@+id/buttonb3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:tag = "@string/b3"
+            android:onClick="buttonClick" 
+             />
+         <ImageButton
+            android:id="@+id/buttonc3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/c3"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttond3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"            
+            android:tag = "@string/d3"
+            android:onClick="buttonClick"
+             />
+         <ImageButton
+            android:id="@+id/buttone3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#666666"  
+            android:tag = "@string/e3"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonf3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:tag = "@string/f3"
+            android:onClick="buttonClick"
+             />
+          <ImageButton
+            android:id="@+id/buttong3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#666666" 
+            android:tag = "@string/g3"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonh3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:tag = "@string/h3"
+            android:onClick="buttonClick" 
+             />
+        
+    </TableRow>
+	    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/buttona2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:tag = "@string/a2"
+            android:src="@drawable/wp"
+            android:onClick="buttonClick"
+            />
+
+        <ImageButton
+            android:id="@+id/buttonb2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/b2"
+            android:src="@drawable/wp"
+            android:onClick="buttonClick" 
+             />
+         <ImageButton
+            android:id="@+id/buttonc2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:tag = "@string/c2"
+            android:src="@drawable/wp"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttond2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#666666"
+            android:layout_weight="1"            
+            android:tag = "@string/d2"
+            android:src="@drawable/wp"
+            android:onClick="buttonClick"
+             />
+         <ImageButton
+            android:id="@+id/buttone2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#FFFFFF"  
+            android:tag = "@string/e2"
+            android:src="@drawable/wp"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonf2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#666666"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:tag = "@string/f2"
+            android:src="@drawable/wp"
+            android:onClick="buttonClick"
+             />
+          <ImageButton
+            android:id="@+id/buttong2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#FFFFFF" 
+            android:tag = "@string/g2"
+  			android:src="@drawable/wp"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonh2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/h2"
+            android:src="@drawable/wp"
+            android:onClick="buttonClick" 
+             />
+        
+    </TableRow>
+	 <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/buttona1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#666666"
+            android:tag = "@string/a1"
+            android:src="@drawable/wr"
+            android:onClick="buttonClick"
+            />
+
+        <ImageButton
+            android:id="@+id/buttonb1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:tag = "@string/b1"
+            android:src="@drawable/wn"
+            android:onClick="buttonClick" 
+             />
+         <ImageButton
+            android:id="@+id/buttonc1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#666666"
+            android:layout_weight="1"
+            android:tag = "@string/c1"
+            android:src="@drawable/wb"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttond1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"            
+            android:tag = "@string/d1"
+            android:src="@drawable/wq"
+            android:onClick="buttonClick"
+             />
+         <ImageButton
+            android:id="@+id/buttone1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#666666"  
+            android:tag = "@string/e1"
+            android:src="@drawable/wk"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonf1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:tag = "@string/f1"
+            android:src="@drawable/wb"
+            android:onClick="buttonClick"
+             />
+          <ImageButton
+            android:id="@+id/buttong1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:background="#666666" 
+            android:tag = "@string/g1"
+            android:src="@drawable/wn"
+            android:onClick="buttonClick"
+              />
+
+        <ImageButton
+            android:id="@+id/buttonh1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:tag = "@string/h1"
+            android:src="@drawable/wr"
+            android:onClick="buttonClick" 
+             />
+        
+    </TableRow>
+	 
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+        
+        <Button
+            android:id="@+id/buttonundo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="nextMove"
+            android:text="@string/next_move"
+              />
+    </TableRow>
+	  <TableRow
+        android:id="@+id/tableRow01"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </TableRow>
+</LinearLayout>
