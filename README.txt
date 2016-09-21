@@ -1,3 +1,5 @@
-Android Final Project for CS213
+Chess App for Android
 
-- Nicholas Fong and Jeffrey Kang
+- Play against an AI or another player
+- Watch replays of previous games
+- Continue games from any point in a replay for practice!
